@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+
+int main()
+{
+    int m;
+    int* pointer;
+    m = 5;
+    pointer = &m;
+    printf("Address: %p\n", &pointer);
+}
